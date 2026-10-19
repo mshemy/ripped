@@ -1,0 +1,49 @@
+.partners {
+  padding: 40px;
+  background: white;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.card {
+  padding: 20px;
+}
+
+.logoRow {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.logo {
+  width: 150px;
+  height: 60px;
+  object-fit: contain;
+}
+
+.arrow {
+  font-size: 2rem;
+  color: #333;
+  text-decoration: none;
+  transition: transform 0.2s, color 0.2s;
+  display: inline-block;
+}
+
+.arrow:hover {
+  transform: translate(3px, -3px);
+  color: #2a5298;
+}
+
+.description {
+  color: #333;
+  line-height: 1.6;
+  font-size: 0.9rem;
+  margin: 0;
+}

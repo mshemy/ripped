@@ -1,0 +1,56 @@
+.preview {
+  padding: 40px;
+  background: white;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.card {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  padding: 30px;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+
+.photoPlaceholder {
+  width: 200px;
+  height: 200px;
+  background: #d0d0d0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #555;
+  border-bottom: 4px solid #2a5298;
+}
+
+.info {
+  flex: 1;
+}
+
+.name {
+  font-size: 1.3rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.description {
+  color: #555;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.customBlock {
+  text-align: center;
+  padding: 30px;
+}
+
+.customText {
+  font-size: 1.1rem;
+  color: #333;
+  font-weight: 500;
+}

@@ -1,0 +1,42 @@
+.container {
+  padding: 20px;
+}
+
+.title {
+  font-size: 2rem;
+  color: #1e3c72;
+  margin-bottom: 30px;
+}
+
+.filters {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 30px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #e0e0e0;
+}
+
+.filterBtn {
+  padding: 10px 20px;
+  background: #f0f0f0;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: all 0.2s;
+}
+
+.filterBtn:hover {
+  background: #e0e0e0;
+}
+
+.active {
+  background: #2a5298;
+  color: white;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}

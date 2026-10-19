@@ -4,6 +4,9 @@ import LecturerCard from '../components/LecturerCard/LecturerCard';
 import styles from './Lecturers.module.css';
 
 function Lecturers({ onSelectLecturer }) {
+
+  throw new Error('Тестовая ошибка: компонент намеренно сломан');
+
   const [filter, setFilter] = useState('all');
 
   const getFilteredLecturers = () => {

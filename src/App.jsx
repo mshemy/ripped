@@ -219,14 +219,14 @@ function App() {
     );
   }
 
-  // СПИСОК ЛЕКТОРОВ
+
   if (currentPage === 'lecturers') {
     return (
       <div style={pageStyle}>
         <Header onNavigate={handleNav} />
         <main style={{ maxWidth: '1000px', margin: '0 auto', padding: '20px' }}>
           
-          {/* 2. ОБЕРНИ КОМПОНЕНТ В ERROR BOUNDARY */}
+          {}
           <ErrorBoundary onReset={() => window.scrollTo({ top: 0 })}>
             <Lecturers onSelectLecturer={handleSelect} />
           </ErrorBoundary>
